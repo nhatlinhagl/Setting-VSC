@@ -123,19 +123,6 @@
 		}
 	},
 
-	"tailwindCSS.includeLanguages": {
-		"html": "html",
-		"javascript": "javascript",
-		"css": "css",
-		"typescript": "javascript", // if you are using typescript
-		"typescriptreact": "javascript" // if you are using typescript with react
-	},
-	"tailwindCSS.experimental.classRegex": [
-		"tw`([^`]*)", // tw`...`
-		"tw\\..+`([^`]*)", // tw.xxx<xxx>`...`
-		"tw\\(.*?\\).*?`([^`]*)" // tw(Component)<xxx>`...`
-	],
-
 	"better-comments.highlightPlainText": true,
 	"better-comments.tags": [
 		{
