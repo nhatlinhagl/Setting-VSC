@@ -32,3 +32,8 @@
 	align-items: flex-start;
 	padding: 30px;
 }
+
+
+<button class="custom-button <%= extraClasses %>">
+  <%= buttonText %>
+</button>
