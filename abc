@@ -1,0 +1,36 @@
+aa
+
+<!-- index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Đường dẫn đến file CSS -->
+</head>
+<body>
+  <h1>Welcome to the Homepage!</h1>
+
+ <nav>
+    <ul>
+      <% linksArray.map(link => { %>
+        <li>
+          <a href="<%= link %>" class="<%= isActive(link) %>"><%= link.slice(1) %></a>
+        </li>
+      <% }); %>
+    </ul>
+  </nav>
+
+
+</body>
+</html>
+
+
+
+bb
+
+const isActive = (link) => {
+  const currentPath = req.originalUrl || ''; // Lấy đường dẫn hiện tại từ req (hoặc sử dụng phương thức khác phù hợp với ứng dụng của bạn)
+  return currentPath === link ? 'active' : '';
+};
