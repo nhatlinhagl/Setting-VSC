@@ -1,0 +1,30 @@
+const currentPath = window.location.pathname.slice(1) || "index.html";
+
+// active link
+const links = document.querySelectorAll(".c-gnav a");
+
+links.forEach((link) => {
+	if (link.getAttribute("href") === currentPath) {
+		const listItem = link.parentElement;
+		listItem.classList.add("is-active");
+		listItem.textContent = link.textContent;
+	}
+});
+
+const breadcrumbList = document.querySelector(".breadcrumb");
+const content = currentPath.split(".")[0];
+const newContent = `${content[0].toUpperCase()}${content.substring(1, 4)} ${content.substring(4)}`;
+
+if (content !== "index") {
+	const newItem = document.createElement("li");
+	newItem.textContent = newContent;
+	breadcrumbList.appendChild(newItem);
+
+	if (breadcrumbList.firstElementChild) {
+		breadcrumbList.firstElementChild.classList.add("underline");
+	}
+} else {
+	const aElement = document.querySelector(".breadcrumb li a");
+	const liElement = aElement.parentElement;
+	liElement.textContent = aElement.textContent;
+}
