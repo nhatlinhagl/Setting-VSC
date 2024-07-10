@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="5.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	</head>
+	<body>
+		<main>
+			<div class="home">
+				<section class="home-mainvisual swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="home-mainvisual__slide">
+								<img src="./mv1.jpg" alt="" class="img" />
+								<div class="home-mainvisual--mainsidetext">
+									<div class="home-mainvisual__maininner">
+										<h1 class="home-mainvisual__maintext">Protect</h1>
+										<div class="home-mainvisual__subtext">
+											<span class="home__mainvisual--small">the</span>
+											<p class="home-mainvisual__maintext">future</p>
+										</div>
+										<p class="home__mainvisual--mainsmalltext">
+											防災技術を駆使し、地域の未来を守る。
+										</p>
+									</div>
+									<div class="home-mainvisual__logo">
+										<picture>
+											<source media="(max-width: 767px )" srcset="/logo-mark.png" />
+											<img src="./logo-mark.png" alt="" />
+										</picture>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="home-mainvisual__slide">
+								<img src="./mv3.jpg" alt="" class="img" />
+								<div class="home-mainvisual--sidetext">
+									<h2 class="home-mainvisual--bigtext">Protect</h2>
+									<p class="home-mainvisual--smalltext">生命と財産を守る</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="home-mainvisual__slide">
+								<img src="./mv3.jpg" alt="" class="img" />
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="home-mainvisual__slide">
+								<img src="./mv1.jpg" alt="" class="img" />
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="home-mainvisual__scroll"></div>
+					<div class="home-mainvisual__new">
+						<div class="home-mainvisual__arrows">
+							<div class="home-mainvisual__arrow"><</div>
+							<div class="home-mainvisual__arrow">></div>
+						</div>
+						<a href="" class="home-mainvisual__hot">
+							<p class="home-mainvisual__date">2018年11月22日</p>
+							<p class="home-mainvisual__content">
+								先進建設・防災・減災技術フェアin熊本にドローン等について出展しました。
+							</p>
+						</a>
+						<div class="home-mainvisual__more">
+							<a href="" class="home-mainvisual__morecontent">お知らせ一覧 ></a>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+		<script>
+			var swiper = new Swiper(".mySwiper", {
+				direction: "vertical",
+				centeredSlides: true,
+				effect: "fade",
+				autoplay: {
+					delay: 4500,
+					disableOnInteraction: true,
+				},
+				pagination: {
+					el: ".swiper-pagination",
+					clickable: true,
+				},
+			});
+		</script>
+		<script src="5.js"></script>
+	</body>
+</html>
