@@ -1,0 +1,264 @@
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+input,
+textarea,
+select,
+button {
+	outline: none;
+}
+input {
+	line-height: normal;
+}
+label,
+button {
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+li {
+	list-style-type: none;
+}
+
+.home-mainvisual__slide {
+	position: relative;
+}
+
+.home-mainvisual__new {
+	position: absolute;
+
+	display: flex;
+	z-index: 1;
+	align-items: center;
+	color: #fff;
+	font-weight: 300;
+	max-width: 970px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color: rgba(0, 0, 0, 0.8);
+	bottom: 4.5%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 1.5rem;
+	line-height: normal;
+	letter-spacing: normal;
+}
+
+.home-mainvisual__scroll {
+	width: 35px;
+	height: 60px;
+	position: absolute;
+	border: 2px solid #fff;
+	border-radius: 17px;
+	left: 50%;
+	bottom: 20.4%;
+	transform: translateX(-50%);
+	z-index: 10;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.home-mainvisual__scroll::after {
+	content: "";
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	border-radius: 50%;
+	background: #fff;
+	left: 50%;
+	bottom: 62%;
+	transform: translate(-50%, 0);
+	z-index: 10;
+	transition: 0.4s;
+	animation: movedown 2s infinite;
+}
+
+.home-mainvisual__hot {
+	display: flex;
+	padding: 14px 0 13px;
+	color: white;
+	font-size: 1.5rem;
+	align-items: center;
+	font-weight: 300;
+}
+
+.home-mainvisual__date {
+	letter-spacing: 1.5px;
+	margin-left: 14px;
+}
+
+.home-mainvisual__content {
+	margin-left: 21px;
+	letter-spacing: 1.5px;
+	max-width: 540px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.home-mainvisual__arrows {
+	display: flex;
+	margin-left: 4px;
+	margin-top: 0;
+}
+
+.home-mainvisual__arrow {
+	background-color: #48b7d0;
+	padding: 1px 6px 2px;
+	line-height: 1.1;
+	cursor: pointer;
+}
+
+.home-mainvisual__more {
+	margin-left: 74px;
+	font-size: 1.3rem;
+	font-weight: 300;
+	position: relative;
+	letter-spacing: 1.4px;
+	cursor: pointer;
+	color: white;
+}
+.home-mainvisual__morecontent {
+	color: white;
+	padding-left: 24px;
+	padding-top: 14px;
+	padding-bottom: 13px;
+}
+
+.home-mainvisual__morecontent::before {
+	content: "";
+	background: rgba(238, 238, 238, 0.4);
+	width: 1px;
+	height: 31px;
+	position: absolute;
+	top: -6px;
+	left: 2px;
+}
+
+.img {
+	width: 100%;
+}
+
+.swiper {
+	height: 671px;
+}
+swiper-pagination-vertical.swiper-pagination-bullets,
+.swiper-vertical > .swiper-pagination-bullets {
+	right: 25px !important;
+}
+.swiper-pagination-bullet {
+	margin: 20px 0 !important;
+	padding: 8px;
+}
+
+@keyframes movedown {
+	0% {
+		transform: translate(-50%, 0);
+		opacity: 1;
+	}
+	50% {
+		transform: translate(-50%, 200%);
+		opacity: 0;
+	}
+	100% {
+		transform: translate(-50%, 0);
+		opacity: 0;
+	}
+}
+
+.home-mainvisual--sidetext {
+	color: #fff;
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -58.9%);
+	text-shadow: 0 0 5px rgba(136, 136, 136, 0.75);
+	font-feature-settings: "palt";
+}
+
+.home-mainvisual--bigtext {
+	font-size: 8rem;
+	font-weight: 400;
+	font-family: "Lora", serif;
+	letter-spacing: 10.2px;
+	line-height: 1.45;
+	transform: translate(3px, 1px);
+}
+
+.home-mainvisual--smalltext {
+	font-size: 1.8rem;
+	font-weight: 300;
+	letter-spacing: 1.4px;
+	transform: translate(-1px, -1px);
+}
+
+.home-mainvisual--mainsidetext {
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 36.6%;
+	z-index: 1;
+	transform: translate(-50%, -50%);
+	text-shadow: 0 0 5px rgba(136, 136, 136, 0.75);
+}
+
+.home-mainvisual__maininner {
+	transform: translate(0, -1px);
+	font-feature-settings: "palt";
+}
+
+.home-mainvisual__maintext {
+	font-size: 9rem;
+	letter-spacing: 9px;
+	font-family: "Lora", serif;
+	line-height: 0.48;
+	font-weight: 400;
+	text-align: center;
+	display: inline-block;
+}
+.home-mainvisual__subtext {
+	font-family: "Lora", serif;
+	font-weight: 400;
+	-webkit-transform: translateX(2px);
+	transform: translateX(2px);
+	margin-top: 21px;
+}
+
+.home__mainvisual--mainsmalltext {
+	letter-spacing: 2.3px;
+	transform: translate(14px, 9px);
+	font-size: 1.8rem;
+	font-weight: 300;
+}
+
+.home__mainvisual--small {
+	letter-spacing: 2.3px;
+	font-size: 2.8rem;
+	display: inline-block;
+	transform: translateX(2px);
+}
+
+.home-mainvisual__logo {
+	position: absolute;
+	top: -34.9%;
+	left: 49.8%;
+	transform: translateX(-50%);
+	min-width: 630px;
+	z-index: -1;
+}
