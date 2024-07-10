@@ -1,24 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<div class="container">
-			<nav class="c-gnav">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="link1.html">Link1</a></li>
-					<li><a href="link2.html">Link2</a></li>
-				</ul>
-			</nav>
-			<ul class="breadcrumb">
-				<li><a href="index.html">HOME</a></li>
-			</ul>
-		</div>
-	</body>
-	<script src="main.js"></script>
-</html>
+.is-show {
+	display: block !important;
+}
+.oh {
+	overflow: hidden;
+}
+
+.close {
+	display: none;
+}
+
+.is-hidden {
+	display: none;
+}
+
+.menu-item {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin-top: 60px;
+	z-index: 1001;
+	background-color: rebeccapurple;
+}
+
+.cb {
+	position: relative;
+}
+
+.cb:hover .ab {
+	display: block;
+}
+
+.ab {
+	position: absolute;
+	display: none;
+	flex-direction: column;
+	z-index: 1;
+	font-size: 1.6rem;
+	background-color: rgba(0, 0, 0, 0.8);
+	font-weight: 300;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.53);
+	color: #fff;
+	top: 51px;
+	padding-bottom: 9px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 280px;
+	cursor: pointer;
+}
+
+----
+
+btnMenu.addEventListener("click", () => {
+	menuItem.classList.toggle("is-show");
+	body.classList.toggle("oh");
+	btnMenu.classList.toggle("is-hidden");
+	close.classList.toggle("is-show");
+});
+
+close.addEventListener("click", () => {
+	menuItem.classList.toggle("is-show");
+	body.classList.toggle("oh");
+});
