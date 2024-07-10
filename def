@@ -16,3 +16,122 @@ closeMenu.addEventListener("click", () => {
 	body.classList.remove("no-scroll");
 	closeMenu.classList.toggle("is-show");
 });
+
+----
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+input,
+textarea,
+select,
+button {
+	outline: none;
+}
+input {
+	line-height: normal;
+}
+label,
+button {
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+li {
+	list-style-type: none;
+}
+
+/* Hamburger Icon */
+.menu {
+	background: none;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	position: relative;
+}
+
+.menu .icon-bar {
+	width: 30px;
+	height: 4px;
+	background-color: black;
+	margin: 3px 0;
+	transition: 0.4s;
+}
+
+/* Close Icon */
+.close-menu {
+	display: none;
+	background: none;
+	border: none;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.close-menu .close-bar {
+	position: absolute;
+	width: 30px;
+	height: 4px;
+	background-color: #333333;
+	transition: 0.4s;
+}
+
+.close-menu .close-bar:nth-child(1) {
+	transform: rotate(45deg);
+}
+
+.close-menu .close-bar:nth-child(2) {
+	transform: rotate(-45deg);
+}
+
+/* Menu Item Styling */
+.menu-item {
+	margin-top: 40px;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1001;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+
+.is-show {
+	display: flex;
+}
+
+.no-scroll {
+	overflow: hidden;
+}
+
+/* Hide original hamburger icon when menu is active */
+.is-active {
+	display: none;
+}
+
