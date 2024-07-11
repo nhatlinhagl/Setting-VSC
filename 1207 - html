@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="6.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	</head>
+	<body>
+		<section class="container">
+			<div class="arrows">
+				<button class="swiper-button-prev"></button>
+				<button class="swiper-button-next"></button>
+			</div>
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">Slide 1</div>
+					<div class="swiper-slide">Slide 2</div>
+					<div class="swiper-slide">Slide 3</div>
+					<div class="swiper-slide">Slide 4</div>
+					<div class="swiper-slide">Slide 5</div>
+					<div class="swiper-slide">Slide 6</div>
+					<div class="swiper-slide">Slide 7</div>
+					<div class="swiper-slide">Slide 8</div>
+					<div class="swiper-slide">Slide 9</div>
+				</div>
+			</div>
+
+			<button>more</button>
+		</section>
+
+		<section class="header-business">
+			<div class="l-container">
+				<div class="header-business__title u-center">
+					<div class="header-business__img">
+						<picture>
+							<source media="(max-width: 767px)" srcset="./logo-small2.png" />
+							<img src="./logo-small.png" alt="事業紹介" />
+						</picture>
+					</div>
+					<h2 class="header-business__content">事業紹介</h2>
+				</div>
+				<h3 class="u-center header-business__subtitle c-subtitle1">
+					<span>
+						アイエステーは、たゆまない技術向上により、地域防災事業に携わるとともに
+
+						<br class="u-none" />
+						地域の安全・安心を確保できるインフラ整備に貢献します。
+					</span>
+				</h3>
+				<div class="header-business__group">
+					<div class="header-business__groupitem u-mx15">
+						<a href="" class="header-business__itemlink">
+							<div class="">
+								<picture>
+									<source media="(max-width: 767px)" srcset="./business1-sp.png" />
+									<img src="./business1.png" alt="事業紹介" />
+								</picture>
+							</div>
+							<div class="header-business__itemcontent u-bg__red">
+								<div class="c-business__icon">
+									<picture>
+										<source media="(max-width: 767px)" srcset="./icon1-sp.svg" />
+										<img src="./icon1.svg" alt="事業紹介" />
+									</picture>
+								</div>
+								<h3 class="header-business__subcontent">防災・減災業務</h3>
+							</div>
+						</a>
+					</div>
+					<div class="header-business__groupitem u-mx15">
+						<a href="" class="header-business__itemlink">
+							<div class="">
+								<picture>
+									<source media="(max-width: 767px)" srcset="./business1-sp.png" />
+									<img src="./business1.png" alt="事業紹介" />
+								</picture>
+							</div>
+							<div class="header-business__itemcontent u-bg__red">
+								<div class="c-business__icon">
+									<picture>
+										<source media="(max-width: 767px)" srcset="./icon1-sp.svg" />
+										<img src="./icon1.svg" alt="事業紹介" />
+									</picture>
+								</div>
+								<h3 class="header-business__subcontent">防災・減災業務</h3>
+							</div>
+						</a>
+					</div>
+					<div class="header-business__groupitem u-mx15">
+						<a href="" class="header-business__itemlink">
+							<div class="">
+								<picture>
+									<source media="(max-width: 767px)" srcset="./business1-sp.png" />
+									<img src="./business1.png" alt="事業紹介" />
+								</picture>
+							</div>
+							<div class="header-business__itemcontent u-bg__red">
+								<div class="c-business__icon">
+									<picture>
+										<source media="(max-width: 767px)" srcset="./icon1-sp.svg" />
+										<img src="./icon1.svg" alt="事業紹介" />
+									</picture>
+								</div>
+								<h3 class="header-business__subcontent">防災・減災業務</h3>
+							</div>
+						</a>
+					</div>
+					<div class="header-business__groupitem u-mx15">
+						<a href="" class="header-business__itemlink">
+							<div class="">
+								<picture>
+									<source media="(max-width: 767px)" srcset="./business1-sp.png" />
+									<img src="./business1.png" alt="事業紹介" />
+								</picture>
+							</div>
+							<div class="header-business__itemcontent u-bg__red">
+								<div class="c-business__icon">
+									<picture>
+										<source media="(max-width: 767px)" srcset="./icon1-sp.svg" />
+										<img src="./icon1.svg" alt="事業紹介" />
+									</picture>
+								</div>
+								<h3 class="header-business__subcontent">防災・減災業務</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="header-business__benefit">
+				<div class="header-business__bg">
+					<div class="l-container l-benefit-container">
+						<div class="header-business__benefitcontent">
+							<h2 class="header-business__benefittitle c-title01">
+								<span class="c-benefits__title--desktop">
+									<span class="header-business__benefitspacespec"
+										>レーザースキャナ搭載のドローン</span
+									>
+									<span class="header-business__organespec">*</span>
+									<br class="u-none" />
+									で安全かつ効率的に測量が可能。
+								</span>
+							</h2>
+							<p class="header-business__txt c-txt01">
+								<span class="c-benefits__text--desktop">
+									アイエステーでは、ドローン搭載型の測量用レーザースキャナ搭載のドローンを導入しました。これにより、従来の写真測量で必須だった対空標識を置くことなく、安全か
+									つ効率的に測量することが可能となりました。またレーザーは植生下にも届くため、
+									写真測量では不可能だった植生下のグランドデータを取得できます。災害時の地形測量や施工管理における活躍が期待できます。
+								</span>
+							</p>
+
+							<p class="header-business__txtinfo c-txt02">
+								<span class="c-benefits__txtinfo--desktop">
+									<span class="c-benefits__textinfo--organspec">* </span>
+									アミューズワンセルフ社製：ドローン搭載用レーザースキャナシステム「TDOT（ティードット）」
+								</span>
+							</p>
+						</div>
+						<div class="header-business__line"></div>
+						<div class="header-business__drone">
+							<picture>
+								<source media="(max-width:767px)" srcset="./dron-sp.png" />
+								<img
+									src="./drone.png"
+									alt="レーザースキャナ搭載のドローン*
+              で安全かつ効率的に測量が可能。"
+								/>
+							</picture>
+						</div>
+					</div>
+				</div>
+				<div class="header-business__moreinfo">
+					<a href="" class="header-business__linkinfo c-txt03">詳細情報</a>
+				</div>
+			</div>
+		</section>
+	</body>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			spaceBetween: 30,
+			centeredSlides: true,
+			autoplay: {
+				delay: 3500,
+				disableOnInteraction: false,
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+		});
+	</script>
+</html>
