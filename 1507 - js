@@ -1,0 +1,20 @@
+const header = document.querySelector("header");
+
+const backtotop = document.querySelector(".c-backtotop");
+
+window.addEventListener("scroll", () => {
+	header.classList.toggle("is-fixed", window.scrollY > 80);
+	backtotop.classList.toggle("is-show", window.scrollY > 80);
+});
+
+const openbtn = document.querySelector(".open");
+const closebtn = document.querySelector(".close");
+const overlay = document.querySelector(".overlay");
+
+openbtn.addEventListener("click", () => {
+	overlay.classList.add("is-open");
+});
+
+closebtn.addEventListener("click", () => {
+	overlay.classList.remove("is-open");
+});
