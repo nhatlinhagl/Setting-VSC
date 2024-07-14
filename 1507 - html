@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lora:wght@400..700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	</head>
+	<body>
+		<header>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+			<h1>1</h1>
+
+			<button class="open">Open</button>
+			<button class="close">Close</button>
+		</header>
+		<div class="overlay">1</div>
+
+		<section class="home-actual">
+			<div class="home-actual__bg">
+				<div class="l-container">
+					<div class="home-actual__logo u-center">
+						<picture>
+							<source media="(max-width: 767px)" srcset="./assets/img/sp/logo-sp.png" />
+							<img src="./assets/img/pc/logo.png" alt="実績紹介" />
+						</picture>
+						<h2 class="c-title">実績紹介</h2>
+					</div>
+					<h3 class="home-actual__subtitle u-center">
+						<span>
+							『地域の人たちが安全に安心して暮らせるように、<br />
+							そして豊かに快適に暮らせるように』、そんな想いを込めて仕事をしています。
+						</span>
+					</h3>
+					<div class="home-actual__container">
+						<button class="home-actual__btn home-actual__btn--left js-prev">
+							<img src="./assets/img/arrow-left.png" alt="" />
+						</button>
+						<div class="swiper mySwiper">
+							<div class="swiper-wrapper u-mx15">
+								<div class="swiper-slide home-actual__item">
+									<a href="" class="home-actual__link">
+										<div class="home-actual__img">
+											<picture>
+												<img src="./assets/img/pc/actual-1.png" alt="" />
+											</picture>
+											<p class="c-label c-label--blue">ICT・BIM/CIM</p>
+										</div>
+										<div class="home-actual__content">
+											<h3 class="home-actual__title">No title</h3>
+											<p class="home-actual__icon">></p>
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide home-actual__item">
+									<a href="" class="home-actual__link">
+										<div class="home-actual__img">
+											<picture>
+												<img src="./assets/img/pc/actual-1.png" alt="" />
+											</picture>
+											<p class="c-label c-label--blue">ICT・BIM/CIM</p>
+										</div>
+										<div class="home-actual__content">
+											<h3 class="home-actual__title">No title</h3>
+											<p class="home-actual__icon">></p>
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide home-actual__item">
+									<a href="" class="home-actual__link">
+										<div class="home-actual__img">
+											<picture>
+												<img src="./assets/img/pc/actual-1.png" alt="" />
+											</picture>
+											<p class="c-label c-label--blue">ICT・BIM/CIM</p>
+										</div>
+										<div class="home-actual__content">
+											<h3 class="home-actual__title">No title</h3>
+											<p class="home-actual__icon">></p>
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide home-actual__item">
+									<a href="" class="home-actual__link">
+										<div class="home-actual__img">
+											<picture>
+												<img src="./assets/img/pc/actual-1.png" alt="" />
+											</picture>
+											<p class="c-label c-label--blue">ICT・BIM/CIM</p>
+										</div>
+										<div class="home-actual__content">
+											<h3 class="home-actual__title">No title</h3>
+											<p class="home-actual__icon">></p>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<button class="home-actual__btn home-actual__btn--right js-next">
+							<img src="./assets/img/arrow-right.png" alt="" />
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="home-actual__more u-center">
+				<a href="" class="home-actual__morelink c-txt03">
+					実績紹介一覧
+					<span class="home-actual__moreicon">></span>
+				</a>
+			</div>
+		</section>
+
+		<!-- c-subtitle01 -->
+		<section class="home-banner">
+			<a href="#" class="home-banner__item home-banner__item--left">
+				<div class="home-banner__content">
+					<h2 class="home-banner__title">会社案内</h2>
+					<p class="home-banner__subtitle">
+						これまでの防災技術と新分野のICTなどを拡充し、
+						<br class="u-none" />
+						地元地域に密着した総合建設コンサルタントを目指します。
+						<br />
+						<span class="home-banner__icon">></span>
+					</p>
+				</div>
+			</a>
+			<a href="#" class="home-banner__item home-banner__item--right">
+				<div class="home-banner__content">
+					<h2 class="home-banner__title">採用情報</h2>
+					<p class="home-banner__subtitle">
+						私たちと共に専門知識や技術を高めながら、
+						<br class="u-none" />
+						地域の未来を守る人材を募集しています。
+						<br />
+						<span class="home-banner__icon">></span>
+					</p>
+				</div>
+			</a>
+		</section>
+
+		<section class="home-news">
+			<div class="l-container__w640">
+				<div class="home-news__title u-center">
+					<div class="home-news__logo">
+						<picture>
+							<source media="(max-width: 767px)" srcset="./assets/img/sp/logo-sp.png" />
+							<img src="./assets/img/pc/logo.png" alt="お知らせ" />
+						</picture>
+					</div>
+					<h2 class="c-title">お知らせ</h2>
+				</div>
+				<ul class="home-news__list">
+					<li class="home-news__item">
+						<a href="#" class="home-news__link">
+							<p class="home-news__date">2018年11月22日</p>
+							<p class="home-news__content">
+								先進建設・防災・減災技術フェアin熊本にドローン等について出展しました。
+							</p>
+						</a>
+					</li>
+
+					<li class="home-news__item">
+						<a href="#" class="home-news__link">
+							<p class="home-news__date">2018年11月20日</p>
+							<p class="home-news__content">ホームページをリニューアルしました</p>
+						</a>
+					</li>
+
+					<li class="home-news__item">
+						<a href="#" class="home-news__link">
+							<p class="home-news__date">2018年07月04日</p>
+							<p class="home-news__content">綿田地区の復興を願って寄付をしました。</p>
+						</a>
+					</li>
+
+					<li class="home-news__item">
+						<a href="#" class="home-news__link">
+							<p class="home-news__date">2017年10月12日</p>
+							<p class="home-news__content">福岡支店が移転しました。</p>
+						</a>
+					</li>
+
+					<li class="home-news__item">
+						<a href="#" class="home-news__link">
+							<p class="home-news__date">2017年09月01日</p>
+							<p class="home-news__content">ドローンレーザスキャナを導入しました</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="home-news__more u-center">
+				<a href="#" class="home-news__morelink c-txt03">
+					お知らせ一覧
+					<span class="home-news__icon">></span>
+				</a>
+			</div>
+		</section>
+
+		<footer class="c-footer">
+			<div class="c-footer__slogan">
+				<h2 class="c-footer__title">
+					Protect
+					<br />
+					<span class="c-footer__title--small">the</span>future
+				</h2>
+				<p class="c-footer__subtitle">防災技術を駆使し、地域の未来を守る。</p>
+			</div>
+			<div class="c-footer__bg"></div>
+			<div class="c-footer__content u-center">
+				<a href="/" class="c-footer__logo">
+					<picture>
+						<source media="(max-width:767px)" srcset="./assets/img/sp/footer-logo-sp.png" />
+						<img src="./assets/img/pc/footer-logo.png" alt="wist" />
+					</picture>
+				</a>
+				<div class="c-footer__info">
+					<div class="c-footer__company">
+						<p class="c-footer__name">
+							総合建設コンサルタント
+							<span class="c-footer__name--big"> 株式会社アイエステー（IST） </span>
+						</p>
+						<p class="c-footer__address">〒860-0833　熊本市中央区平成3丁目16番13号</p>
+					</div>
+					<div class="c-footer__contact">
+						<p class="c-footer__phone">
+							tel.
+							<a href="tel:0962855177" class="c-footer__phone--big">096-285-5177</a>
+						</p>
+						<p class="c-footer__fax">fax.096-285-5188</p>
+					</div>
+					<div class="c-footer__links">
+						<a href="" class="c-footer__link">
+							交通アクセス
+							<span class="c-footer__icon">></span> </a
+						><a href="" class="c-footer__link">
+							プライバシーポリシー
+							<span class="c-footer__icon">></span>
+						</a>
+					</div>
+					<p class="c-footer__copyright u-center">Copyright © IST CO., LTD. All Rights Reserved.</p>
+				</div>
+			</div>
+		</footer>
+
+		<div class="c-backtotop">
+			<div class="c-backtotop__btn">
+				<p class="c-backtotop__icon">^</p>
+				<p class="c-backtotop__content">TOP</p>
+			</div>
+			<div class="c-backtotop__img">
+				<img src="./assets/img/pagetop.png" alt="" />
+			</div>
+		</div>
+	</body>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			slidesPerView: 1,
+			loop: true,
+			slidesPerGroup: 1,
+			autoplay: {
+				delay: 4500,
+				disableOnInteraction: false,
+			},
+
+			navigation: {
+				nextEl: ".js-next",
+				prevEl: ".js-prev",
+			},
+
+			breakpoints: {
+				767: {
+					slidesPerView: 2,
+					spaceBetween: 10,
+				},
+
+				899: {
+					slidesPerView: 3,
+					spaceBetween: 25,
+				},
+
+				1024: {
+					slidesPerView: 4,
+					spaceBetween: 30,
+				},
+			},
+		});
+	</script>
+	<script src="./main.js"></script>
+</html>
